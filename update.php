@@ -5,7 +5,7 @@
 		<div class="col-md-8 col-md-offset-2">
 			<form action="action/update.php" method="POST">
 			<div class="form-group">
-				<input type="hidden" name="id">
+				<input type="hidden" name="id" value="<?php echo $row["id"] ?>">
 				<label>Name</label>
 				<input type="text" class="form-control" name="name">
 			</div>
